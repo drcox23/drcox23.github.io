@@ -1,0 +1,23 @@
+body {
+  background-color: aqua;
+  min-height: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  border: 2px solid black;
+  height: 10%;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.nav-class,
+.logo {
+  margin: 10px;
+
+}
