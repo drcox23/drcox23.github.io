@@ -19,5 +19,15 @@ body {
 .nav-class,
 .logo {
   margin: 10px;
+}
 
+.home-icons {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.icon-back {
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
 }
