@@ -30,7 +30,8 @@ a {
   margin: 10px;
 }
 
-#home {
+#home,
+#contact {
   min-height: 500px;
   width: 100%;
   display: flex;
@@ -52,12 +53,14 @@ a {
   justify-content: center;
 }
 
-#intro {
+#intro,
+#contact-header {
   font-family: 'Share Tech Mono', monospace;
   font-size: 60px;
 }
 
-.home-icons {
+.home-icons,
+.contact-methods {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
