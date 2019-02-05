@@ -11,6 +11,10 @@ body {
   font-family: 'Zilla Slab', serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   border: 2px solid black;
   height: 10%;
@@ -27,11 +31,25 @@ body {
 }
 
 #home {
-  height: 500px;
+  min-height: 500px;
   width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   background-color: #2a2a2a;
   font-size: 30px;
   color: white;
+}
+
+.hd {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-links {
+  display: flex;
+  justify-content: center;
 }
 
 #intro {
@@ -42,6 +60,7 @@ body {
 .home-icons {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: center;
 }
 
 .icon-back {
@@ -51,6 +70,6 @@ body {
 
 .icon-back {
   background-color: white;
-  margin: 5px;
+  margin: 10px;
   padding: 10px;
 }
