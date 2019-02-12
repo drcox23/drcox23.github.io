@@ -5,6 +5,7 @@ font-family: 'Zilla Slab', serif; */
 body {
   /* background-color: aqua; */
   min-height: 100%;
+  min-width: 100%;
   height: auto;
   margin: 0;
   padding: 0;
@@ -66,9 +67,17 @@ p {
   border-bottom-width: 6px;
 }
 
+.home-description {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
 .hd {
   display: flex;
   justify-content: center;
+  margin: 20px;
+  text-align: center;
 }
 
 .icon-links {
@@ -87,25 +96,41 @@ p {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-}
-
-.icon-back {
-  font-size: 20px;
-  border-radius: 20px;
+  margin: 20px;
 }
 
 .icon-back {
   background-color: white;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
 }
 
 #about-me {
-  background-color: #606844;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: #eeeff0;
   border-top: 6px solid #ffffff;
   border-bottom: 6px solid #ffffff;
-  color: white;
+  color: #2a2a2a;
+  margin: auto;
+  padding: 10px;
   font-size: 24px;
+}
+
+#about-header,
+#projects-header {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 60px;
+  text-align: center;
+  margin: 10px;
+}
+
+.about-blurb {
+  padding: 15px;
 }
 
 #skills {
@@ -126,9 +151,55 @@ p {
   padding-top: 10px;
 }
 
+#projects {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: #ffffff;
+  border-top: 6px solid #ffffff;
+  border-bottom: 6px solid #ffffff;
+  color: #2a2a2a;
+  margin: auto;
+  padding: 10px;
+  font-size: 24px;
+}
+
+/* #projects-header {
+  display: flex;
+  flex-flow: row wrap;
+} */
+
+.projects-description {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.proj-space {
+  width: 400px;
+  height: 200px;
+  margin: 30px;
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.proj-tech-stack {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
 #contact {
   min-height: 300px;
   width: 100%;
+  border-top: 6px solid #ffffff;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
