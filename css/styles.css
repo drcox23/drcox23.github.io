@@ -37,6 +37,7 @@ h5 {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
+  align-items: center;
   /* padding: 5px; */
   position: fixed;
   top: 0;
